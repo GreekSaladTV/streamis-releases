@@ -15,7 +15,7 @@
 </nav></div></header>
 <main><div class="wrap">
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: September 30, 2026</p>
+  <p class="updated">Last updated: October 15, 2026</p>
 
   <p>Streamis is a desktop application for live streamers. This policy explains what data Streamis accesses, how it is used, where it is stored and how you can remove it.</p>
 
@@ -42,6 +42,14 @@
   </ul>
   <p>The developer of Streamis cannot access this data.</p>
 
+  <h2>How long YouTube data is kept</h2>
+  <ul>
+    <li>Data received from YouTube API Services is kept for no longer than 30 days. Streamis checks this when it starts and every 6 hours after that.</li>
+    <li>After 30 days, viewer names, chat and Super Chat message texts, and the original API responses are deleted. Only the amount, currency, type and date of each Super Chat or membership event are kept, as statistics of your own channel. Chat activity of YouTube viewers is reduced to anonymous daily counts (how many people wrote and how many messages), and video statistics in the content plan are deleted after 30 days.</li>
+    <li>Statistics are kept only while Streamis is still authorized to access your channel. Streamis checks this authorization every 6 hours.</li>
+    <li>The app's log files and local database backups are also cleared of entries older than 30 days.</li>
+  </ul>
+
   <h2>When data leaves your computer</h2>
   <p>Streamis sends data only to the services needed for the features you turn on:</p>
   <ul>
@@ -53,8 +61,8 @@
 
   <h2>How to revoke access and delete data</h2>
   <ul>
-    <li>Disconnect YouTube in Streamis (Sources → YouTube), which deletes the stored tokens.</li>
-    <li>Revoke Streamis's access to your Google account at any time at <a href="https://myaccount.google.com/permissions">Google security settings</a> (<a href="https://security.google.com/settings/security/permissions">security.google.com/settings/security/permissions</a>).</li>
+    <li>Disconnect YouTube in Streamis (Sources → YouTube → Full sign-out). Streamis immediately revokes its access token with Google and deletes the stored tokens and all YouTube data from your computer.</li>
+    <li>Revoke Streamis's access to your Google account at any time at <a href="https://myaccount.google.com/permissions">Google security settings</a> (<a href="https://security.google.com/settings/security/permissions">security.google.com/settings/security/permissions</a>). If you revoke access there and do not connect YouTube again, Streamis deletes all YouTube data from your computer 14 days after the revocation. If Streamis is not running at that moment, it deletes the data as soon as it starts.</li>
     <li>Delete all local data by uninstalling Streamis and removing its data folder (<code>%APPDATA%\streamis</code> on Windows).</li>
   </ul>
 
